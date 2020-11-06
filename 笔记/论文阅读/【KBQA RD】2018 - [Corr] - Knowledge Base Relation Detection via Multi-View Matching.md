@@ -84,7 +84,7 @@
 
 ## 5 模型结构
 
-![image-20200925154423906](.\论文阅读\【KBQA RD】2018 - [Corr] - Knowledge Base Relation Detection via Multi-View Matching\image\image-20200925154423906.png)
+![image-20200925154423906](【KBQA RD】2018 - [Corr] - Knowledge Base Relation Detection via Multi-View Matching\image\image-20200925154423906.png)
 
 **输入模块：**
 
@@ -138,7 +138,8 @@ $$
 \overleftarrow{\alpha_{i,j}} = cosine(\overleftarrow{h_i}^{anchor}, \overleftarrow{h_j}^{target}) \quad j = 1,...,N \\
 \overrightarrow{h_i}^{mean} = \frac{\sum_{j=1}^{N}\overrightarrow{\alpha_{i,j}}\cdot \overrightarrow{h_j}^{target}}{\sum_{j=1}^N \overrightarrow{\alpha_{i,j}}} \\
 \overleftarrow{h_i}^{mean} = \frac{\sum_{j=1}^{N}\overleftarrow{\alpha_{i,j}}\cdot \overleftarrow{h_j}^{target}}{\sum_{j=1}^N \overleftarrow{\alpha_{i,j}}} \\
-\\
+$$
+$$
 \overrightarrow{m_i}^{att} = f_m ({\overrightarrow{h_i}^{anchor}, \overrightarrow{h_i}^{mean}; W}) \\
 \overleftarrow{m_i}^{att} = f_m ({\overleftarrow{h_i}^{anchor}, \overleftarrow{h_i}^{mean}; W}) \\
 $$
