@@ -84,7 +84,7 @@
 
 ## 5 模型结构
 
-![image-20200925154423906](C:\Users\xjf_njust\Desktop\Learning\论文阅读\【KBQA RD】2018 - [Corr] - Knowledge Base Relation Detection via Multi-View Matching\image\image-20200925154423906.png)
+![image-20200925154423906](.\论文阅读\【KBQA RD】2018 - [Corr] - Knowledge Base Relation Detection via Multi-View Matching\image\image-20200925154423906.png)
 
 **输入模块：**
 
