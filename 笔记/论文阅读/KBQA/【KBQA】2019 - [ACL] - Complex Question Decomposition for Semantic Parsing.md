@@ -1,3 +1,7 @@
+---
+typora-root-url: 【KBQA】2019 - [ACL] - Complex Question Decomposition for Semantic Parsing
+---
+
 # 2019 - [ACL] - Complex Question Decomposition for Semantic Parsing
 
 [TOC]
