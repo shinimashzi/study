@@ -37,7 +37,7 @@ KBQA RD的主要挑战：词汇鸿沟
 
 # 2 具体实现
 
-![image-20210105162429066](【KBQA RD】2019-[] - Multi-view multitask learning for knowledge base relation detection.assets/image-20210105162429066.png)
+![image-20210105162429066](https://cdn.jsdelivr.net/gh/shinimashzi/study/img/image-20210105162429066.png)
 
 模型目标：
 
@@ -81,7 +81,7 @@ $H_q = Bi-SRU(q)$
 
     - 对序列Y中的每个单词$y_j$，X中单词的加权和为 $\hat{x_j}=\sum_{k=1}^{|X|}a_{k,j}x_k$，$a_{i,j}$是A中的元素，$x_k$是$H_x$的第k列。所以$\hat{x_j}$对X和Y中的第j个词进行匹配，$\hat{x_j}$和$y_j$连接成为：
 
-        ![image-20210106093507887](【KBQA RD】2019-[] - Multi-view multitask learning for knowledge base relation detection.assets/image-20210106093507887.png)
+        ![image-20210106093507887](https://cdn.jsdelivr.net/gh/shinimashzi/study/img/image-20210106093507887.png)
 
 - $F_{XY}=CNN(M_{XY})$
 
@@ -101,7 +101,7 @@ $H_q = Bi-SRU(q)$
 给定两个问题q和$q'$，PD模型估计它们的概率，这个模型共享问题表示层和序列相关特征提取层，因此唯一不同的部分是输出层。
 
 - 问题表示模块将两个问题映射到向量序列$H_q \in R^{2d_{sru}\times |q|}$，$H_{q'}\in R^{2d_{sru}\times |q'|}$
-- 双向相关特征提取：![image-20210106095557717](【KBQA RD】2019-[] - Multi-view multitask learning for knowledge base relation detection.assets/image-20210106095557717.png)
+- 双向相关特征提取：![image-20210106095557717](https://cdn.jsdelivr.net/gh/shinimashzi/study/img/image-20210106095557717.png)
 - 最后输出层估计两个问题属于同一关系的概率。
 
 
@@ -117,7 +117,7 @@ Pairwise ranking loss
 
 ### 2.4 实验部分
 
-![image-20210106100324253](【KBQA RD】2019-[] - Multi-view multitask learning for knowledge base relation detection.assets/image-20210106100324253.png)
+![image-20210106100324253](https://cdn.jsdelivr.net/gh/shinimashzi/study/img/image-20210106100324253.png)
 
 在网络优化部分：首先使用粗粒度网格搜索，之后对每个参数定义一个最佳搜索空间，在验证集上残生最好效果的则被应用。
 
